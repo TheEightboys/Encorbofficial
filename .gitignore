@@ -15,6 +15,15 @@ dist-ssr
 .tanstack/**
 .nitro
 *.local
+.env
+.env.*
+!.env.example
+
+# Temporary / scratch files
+scratch_read_docx.*
+temp_docx/
+tsc-errors.txt
+.png
 
 # Wrangler / Cloudflare
 .wrangler/
